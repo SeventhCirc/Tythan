@@ -20,8 +20,6 @@ public class JsonBuilder {
 		return json;
 	}
 
-
-
 	public JsonBuilder add(String key, @Nullable String value) {
 		if (value != null) {
 			json.addProperty(key, value);

@@ -18,12 +18,12 @@ public class Advancement {
 	@Nullable private String background;
 	@Nullable private String description;
 	@Nullable private String jsondescription;
-	@Nullable private Boolean show_toast;
-	@Nullable private Boolean announce_to_chat;
+	@Nullable private Boolean showtoast;
+	@Nullable private Boolean announcetochat;
 	@Nullable private Boolean hidden;
 
 	//Parent - Optional
-	@Nullable private String parrent;
+	@Nullable private String parent;
 
 	//Criteria
 	private List<Critera> criteras;
@@ -34,8 +34,4 @@ public class Advancement {
 	@Nullable private Integer experience;
 	@Nullable private String function;
 
-	public void test(){
-		icon
-
-	}
 }
